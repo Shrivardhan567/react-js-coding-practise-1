@@ -1,0 +1,34 @@
+/* Write your code here. */
+.background {
+  background-color: #0f172a;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+.img {
+  height: 200px;
+  width: 200px;
+}
+.img-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 576px) {
+  .background {
+    justify-content: flex-end;
+  }
+  .img {
+    height: 100px;
+    width: 100px;
+  }
+}
